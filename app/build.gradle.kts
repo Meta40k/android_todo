@@ -51,6 +51,10 @@ android {
 
 dependencies {
 
+    //implementation("com.jakewharton.threetenabp:threetenabp:1.3.1")
+    implementation(libs.threetenabp) //предоставляет разработчикам возможность использовать современные классы для работы с датами и временем
+
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.28.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
